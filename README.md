@@ -1,5 +1,9 @@
 # reusable-code
-Useful code fragments. Various languages.
+Useful code fragments groupped by languages (each one in its own folder).
+
+Fragments (function as usual) are placed in separate files. 
+
+The most of them are **MWE** (Minimal working examples) demontrating function usage.
 
 
 # Batch
