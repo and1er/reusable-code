@@ -3,6 +3,8 @@
 
     call :IfWindowsXP && call ( echo Windows XP action ) || ( echo Other Windows version action )
 
+    exit /b 0
+
 :IfWindowsXP
     REM Checks does the current OS is Windows XP or not
     

@@ -11,6 +11,8 @@
     echo Not existing dir "%notExistDir%"
     call :IfDirExist "%notExistDir%" && ( echo EXIST action ) || ( echo NOT EXIST action )
 
+    exit  /b 0
+
 
 :IfDirExist
     REM Checks does the dir exists.
