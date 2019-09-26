@@ -16,7 +16,7 @@
 
 :IfDirExist
     REM Checks does the dir exists.
-    REM %1 - [IN] relative or absolute dir
+    REM %1 - [IN] relative or absolute path to a dir
     REM Exit code "1" - NOT exists
     REM Exit code "0" - exists
 
