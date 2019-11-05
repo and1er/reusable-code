@@ -1,7 +1,7 @@
 @echo off
     setlocal
 
-    call :IfWindowsXP && call ( echo Windows XP action ) || ( echo Other Windows version action )
+    call :IfWindowsXP && ( echo Windows XP action ) || ( echo Other Windows version action )
 
     exit /b 0
 
